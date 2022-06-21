@@ -1,0 +1,153 @@
+.grptxt_un{
+    text-align: justify;
+    width: calc(100% - 250px);
+}
+
+
+body{
+   
+    background-color: black;
+    /* display: flex   ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 310px; */
+}
+
+
+#sectionUn{
+    display: flex;
+    border: 1px solid rgb(139, 177, 207);
+    background-color: rgb(139, 177, 207) ;
+    color: black;
+    width: 82%;
+   
+    
+}
+
+/* #sectionDEUX{
+    border: 1px solid rgb(25, 39, 49);
+    background-color: rgb(25, 39, 49) ;
+    color: white;
+    position: absolute;
+    top: 3OOpx;
+    width: 220px;
+
+} */
+
+/* #sectionTROIS{
+    margin-left: 218px;
+    padding-bottom: -1px;
+    text-align: justify;
+    margin-top: -26px;
+    background-color: white;
+    color: black;
+    height: 722px;
+    width: 620px;
+
+
+} */
+
+h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+b{
+    padding-left: 2px;
+}
+.theme{
+    padding-left: 20px;
+}
+.titrposte{
+    padding-left: 30px;    
+}
+
+.titreposte{
+    font-size: 12px;
+}
+
+
+.para{
+    padding-left: 40px;
+}
+.grptxt_trois{
+    text-align: justify;
+    
+}
+
+img{
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: px solid white;
+}
+/* pour la petite barre verticale devant le texte coe (|)*/
+/*photo des icone*/
+.tel img{
+width: 30px;
+height: 20px;
+margin-bottom: -5px;
+}
+.email img{
+    width: 30px;
+height: 20px;
+margin-bottom: -5px;
+}
+.local img{
+    width: 30px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+.Linkedln img{
+    width: 30px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+.contour{
+    width: 80%;
+}
+
+
+@media screen and (max-width : 780px) {
+    #sectionUn{
+        display: flex;
+        flex-direction: column;
+    }
+    .divise_sect{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 680px) {
+    .divise_sect{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 681px) and (max-width:1279px){
+    body{
+        background-color: rgb(221, 222, 233);
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    body{
+        background-color: rgb(147, 180, 147);
+    }
+}
+
+
+
+
+
+
+
+
