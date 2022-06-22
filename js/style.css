@@ -1,6 +1,7 @@
 .grptxt_un{
     text-align: justify;
     width: calc(100% - 250px);
+    padding-left: 30px;
 }
 
 
@@ -61,7 +62,7 @@ b{
     padding-left: 20px;
 }
 .titrposte{
-    padding-left: 30px;    
+    padding-left: 20px;    
 }
 
 .titreposte{
